@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.task-element, .heading {
+.task-element,
+.heading {
   list-style: none;
 }
 
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 
@@ -134,7 +136,7 @@
   vertical-align: middle;
 }
 
-.task-element >    .text {
+.task-element > .text {
   width: 226px;
   vertical-align: middle;
 }
