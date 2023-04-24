@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-row-wrapper {
@@ -135,7 +135,7 @@
 }
 
 .task-element >    .text {
-  width: 226px
+  width: 226px;
   vertical-align: middle;
 }
 
@@ -151,18 +151,18 @@
 
 /* Completed */
 .task-list-completed .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-list .task-element .text {
-  display: none
+  display: none;
 }
 
 .task-list .task-element.edit-mode .text {
   display: inline-block;
-  width: 327px
+  width: 327px;
 }
 
 .task-list .task-element.edit-mode .label {
