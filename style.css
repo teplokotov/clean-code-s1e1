@@ -4,46 +4,59 @@
   color: #333;
   font-family: "Lato", sans-serif;
 }
+
 .header-container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.header-container img {
+
+.header-container .image {
   width: 100%;
 }
+
 .header-container .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .header-container { text-align: center;
+
+  .header-container { 
+    text-align: center;
+  }
+
 }
-}
+
 .page-container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 .task-list {
   margin:0;
   padding: 0px;
 }
-.task-element, h3 {
+
+.task-element, .heading {
   list-style:none;
 }
+
 .input,.button{
   outline:none;
 }
+
 .button {
   background: none;
   border: 0px;
@@ -54,9 +67,11 @@
   cursor: pointer;
   vertical-align: middle;
 }
+
 .button:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .heading,
 .label-new-task {
@@ -68,6 +83,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .text {
   margin: 0;
   font-size: 18px;
@@ -80,6 +96,7 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .text:focus {
   color: #333;
 }
@@ -89,6 +106,7 @@
   display: block;
   margin: 0 0 20px;
 }
+
 .new-task {
   width: 420px;
 }
@@ -108,6 +126,7 @@
   margin: 0 10px;
   vertical-align: middle;
 }
+
 .task-element > .label {
   padding-left: 10px;
   box-sizing: border-box;
@@ -115,15 +134,18 @@
   width: 347px;
   vertical-align: middle;
 }
+
 .task-element >    .text {
   width: 226px
   vertical-align: middle;
 }
+
 .button.delete .image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .button.delete .image:hover {
   transform: rotateZ(0);
 }
